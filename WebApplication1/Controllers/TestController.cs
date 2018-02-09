@@ -59,7 +59,7 @@ namespace WebApplication1.Controllers
             }
 
             employeeListViewModel.Employees = empViewModels;
-            employeeListViewModel.UserName = "Admin";
+            employeeListViewModel.UserName = "Meelevsky";
             return View("MyView", employeeListViewModel);
         }
 
